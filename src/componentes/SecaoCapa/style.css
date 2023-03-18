@@ -1,0 +1,50 @@
+
+.background {
+  background: linear-gradient(47deg,#000113 0%, #04061d 80%, #04061d 100%);
+  background-image: url('/public/assets/capa.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  height:80vh;  
+}
+
+.backround-text {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.background-title {
+  text-transform: uppercase;
+  max-width: 500px;
+  font-family: 'Anybody',cursive;
+  color: #fff;
+  font-size:60px;
+  letter-spacing: 5px;
+  line-height: 70px;
+}
+
+.background p{
+  max-width: 500px;
+  font-size: 36px;
+  color: rgb(196,196,196);
+}
+
+@media (max-width: 768px){
+  .background-title {
+    max-width: 350px;
+    font-size:40px;
+  }
+  .background p{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .background {
+    background-position: 89% center;
+    background-color: rgba(0,0,0,0.6);    
+  }
+}
